@@ -11,13 +11,10 @@ h3 {
     color: darkorange;
     margin-left: auto;
 }
-p {
-    background-color: darkgray;
-}
 body {
     background-color: linen;
 }
 img {
-    width: fit-content;
-    height: fit-content;
+    width: 1024px;
+    height: 340px
 }
