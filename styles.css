@@ -19,7 +19,7 @@ img {
     width: 1024px;
     height: 340px
 }
-ul {
+.section {
     list-style-type: none;
     margin: 0;
     padding: 0;
