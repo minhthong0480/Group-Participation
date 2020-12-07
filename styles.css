@@ -15,6 +15,7 @@ body {
     background-color: linen;
 }
 img {
+    align-items: center;
     width: 1024px;
     height: 340px
 }
