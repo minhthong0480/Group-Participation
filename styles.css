@@ -5,7 +5,14 @@ h1 {
 
 h2 {
     color: cornflowerblue;
-    text-align: center;
+    text-align: left;
+}
+h3 {
+    color: darkorange;
+    text-align: left;
+}
+p {
+    background-color: darkgray;
 }
 
 
