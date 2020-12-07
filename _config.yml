@@ -1,1 +1,73 @@
-theme: jekyll-theme-midnight
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Paticipationt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Group Participation</h1>        
+    <h2>Overview of Git and GitHub</h2>
+    <h3>What is Git</h3>
+    <p>Git is a name of a distributed version control system designed to allow groups of developers to collaborate on a documents, at the same time and not to overriding each other’s code. For example, have you ever worked on a document such as Word or Excel with other people? You work as the same time and realise that you override each other changes or lose other people’s work. Git is designed to help people avoid all that issues. Git also help tracks what you or your collaborators have changed in the project source code, what and when specifically. So that you can recall specific versions later. <br></p>
+    <h3>What is GitHub</h3>
+    <p>GitHub is a company that offer Git hosting service repository. It tends to help individual use git for collaboration more easier.</p>
+    <h2>How to install Git and GitHub</h2>
+    <p>Git can be install on most of the common operating system nowaday like: Window, Mac, Linux. If you using Mac or Linux, luckily, Git is installed by default on those system. <br>
+    Checking if Git is on your machines
+    <ul style="list-style-type:circle">
+        <li>If you’re on Mac, find your command promt called Termianl.</li>
+        <li>If you’re on windows machine, open window command promt or Git Bash.</li>
+    </ul> 
+        When you open your terminal, type git version. The output will tell you which version is install or iit will say git is an unknow command. It means you have to install Git by yourself
+        </p>
+    <h3>Install Git on Window</h3>
+    <p>
+        <ul style="list-style-type:circle">
+            <li>Follow this link to download Git:</li>
+            <li>Start the installer and follow the instructions provided by the setup wizard until finish.</li>
+            <li>Open the command promt and type git version to verify Git was installed.</li>
+        </ul>
+    </p>
+    <h3>Install Git on Mac</h3>
+    <p>You can use the same method as installing on Window by using this link: <br> Or you can install Git from homebrew. This is a software management system that simplifies the installation of software on Mac and Linux.
+        <ul style="list-style-type:circle">
+            <li>Open Termiinal window and install Git by Using command: brew install git</li>
+            <li>Once the installation complete, you can check by typing git version.</li>
+        </ul>
+    </p>
+    <h3>Install Git on Linux</h3>
+    <p>You can install Git on Linux by using package management tool <br>
+        <ul style="list-style-type:circle">
+            <li>With Debian/Ubuntu: Install Git by using apt-get. From your shell, enter: sudo apt-get install git-all</li>
+            <li>Once the installation complete, you can check by typing: git version.</li> <br>
+        </ul>
+        <ul style="list-style-type:circle">
+            <li>With Fedora: Install Git by using apt-get. From your shell, enter: sudo dnf-get install git-all</li>
+            <li>Once the installation complete, you can check by typing: git version.</li>
+        </ul>
+    </p>
+    <h2>Basic command</h2>
+    <p>Here are some basic command for Git <br>
+        <ul style="list-style-type:circle">
+            <li>Git config: This command can be used to set user configuration and settings such as: email, usesrname, file format: "git config --global user.email youremail@example.com"</li>
+            <li>Git commit: Record the changes made to the file and save it to the local git repository:"git commit -m "Enter your message".</li>
+            <li>Git add: Before a file is avaiable to commit, it needs to be added to the git index. There are few ways to use git add, adding directory, file name or unstaged files: "git add file or directory name" </li>
+            <li>Git push: Send local commits to the master branch of the repository: "git push remote URl/remote_name branch". </li>
+        </ul>
+    </p>
+    <h2>How to resolve problem</h2>
+    <h3>Resolve problem using web editor</h3>
+    <p>
+        <ul style="list-style-type:circle">
+            <li>Step 1: Under your repository name, choose tab Pull Requests </li>
+            <li>Step 2: Click the request that you want to resolve</li>
+            <li>Step 3: At the bottom of the request, click Resolve Requests</li>
+            <li>Step 4: Here you will have to decide whether you want to keep your branch's changes or make a new one. Now make the change you want. If you have more than one conflict, scroll down for the next problem and repeat deleting.</li>
+            <li>Step 5: Once you resolve all the conflicts, click Mark as read.</li>
+            <li>Step 6: When you done resolve all the conflict, choose Commit merge.</li>
+        </ul>
+    </p>
+</body>
+</html>
