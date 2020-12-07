@@ -17,4 +17,7 @@ p {
 body {
     background-color: linen;
 }
-
+img {
+    width: fit-content;
+    height: fit-content;
+}
