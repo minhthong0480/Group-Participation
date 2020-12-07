@@ -5,15 +5,16 @@ h1 {
 
 h2 {
     color: cornflowerblue;
-    text-align: left;
+    margin-left: auto;
 }
 h3 {
     color: darkorange;
-    text-align: left;
+    margin-left: auto;
 }
 p {
     background-color: darkgray;
 }
-
-
+body {
+    background-color: linen;
+}
 
