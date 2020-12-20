@@ -32,6 +32,7 @@ img {
   overflow: hidden;
   background-color: darkgray;
   position: sticky;
+  top: 0
 }
 
 .nav {
