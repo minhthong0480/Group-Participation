@@ -31,6 +31,7 @@ img {
   padding: 0;
   overflow: hidden;
   background-color: darkgray;
+  position: sticky;
 }
 
 .nav {
